@@ -3,8 +3,6 @@
 char WIFI_SSID[] = "Your-WiFi-SSID"; // 無線LANルーターのSSID名称
 char WPA_PASSWORD[] = "Your-WPA-Password"; // 無線LANルーターの接続パスワード
 
-WiFiClient client;
-
 void setup()
 {
   Serial.begin(115200);
